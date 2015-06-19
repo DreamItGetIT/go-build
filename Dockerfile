@@ -1,4 +1,4 @@
-FROM golang:1.4.1
+FROM golang:1.4.2
 
 RUN go get -u github.com/golang/lint/golint
 RUN go get -u golang.org/x/tools/cmd/vet
